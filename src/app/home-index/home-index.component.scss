@@ -1,0 +1,98 @@
+.vig-content {
+  display: flex;
+  background-color: white;
+  flex-direction: column;
+  padding: 0.5rem 1.5rem;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1rem;
+  background-color: rgb(224, 224, 224);
+  .vig-brief {
+    font-size: 1rem;
+    font-family: sans-serif;
+    font-style: inherit;
+  }
+}
+
+.what-vig-text {
+  font-size: 1.3rem;
+  font-family: serif;
+  font-style: inherit;
+  color: rgb(54, 54, 54);
+  margin-bottom: 0.4rem;
+}
+
+.vig-coin-text {
+  color: dodgerblue;
+}
+
+.text-green-title {
+  font-size: 1.5rem;
+  font-family: serif;
+  font-style: inherit;
+  color: green;
+  margin-bottom: 1rem;
+}
+
+.text-blue-title {
+  font-size: 1.5rem;
+  font-family: 'Courier New', Courier, monospace, serif;
+  font-style: inherit;
+  color: #007bff;
+  margin-bottom: 1rem;
+}
+
+.digital-coin {
+  border-right: 1px dashed grey;
+}
+
+.text-danger-title {
+  font-size: 2rem;
+  font-family: serif;
+  font-style: inherit;
+  color: red;
+}
+
+.balck-div {
+  margin-top: 1rem;
+  padding: 1rem;
+  display: flex;
+  background-color: rgb(243, 243, 243);
+}
+
+.download-wallet.div {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+}
+
+.download-wallet-view {
+  display: flex;
+  flex-wrap: wrap;
+  .download-button {
+    width: 12rem;
+    margin: 0.5rem;
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background: rgb(255, 255, 255);
+  }
+  .download-button:hover {
+    background: rgb(131, 193, 255);
+  }
+}
+
+.get-vig-method {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.contact {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.square-button {
+  background-color: gainsboro;
+  padding: 0.5rem 1rem;
+}
