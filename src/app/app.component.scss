@@ -2,3 +2,47 @@
   font-size: 42px;
   color: #ccc;
 }
+
+.vig-content {
+  display: flex;
+  background-color: white;
+  flex-direction: column;
+  padding: 0.5rem 1.5rem;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1rem;
+  background-color: rgb(224, 224, 224);
+  .vig-brief {
+    font-size: 1rem;
+    font-family: sans-serif;
+    font-style: inherit;
+  }
+}
+
+.what-vig-text {
+  font-size: 1.3rem;
+  font-family: serif;
+  font-style: inherit;
+  color: rgb(54, 54, 54);
+  margin-bottom: 0.4rem;
+}
+
+.vig-coin-text {
+  color: dodgerblue;
+}
+
+.text-green-title {
+  font-size: 1.5rem;
+  font-family: serif;
+  font-style: inherit;
+  color: green;
+  margin-bottom: 1rem;
+}
+
+.text-blue-title {
+  font-size: 1.5rem;
+  font-family: 'Courier New', Courier, monospace, serif;
+  font-style: inherit;
+  color: #007bff;
+  margin-bottom: 1rem;
+}
